@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Oauth Tutorial</title>
+    <style>
+        #divElement{
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        margin-top: -50px;
+        margin-left: -50px;
+        }​
+    </style>
+</head>
+<body style="background-color: greenyellow;">
+<div id="divElement">
+    <h1>Home de la aplicación</h1>
+    <button type="button" style="width: 100%" onclick="window.location.href='{% url 'saldo' %}'">
+        Consulta Saldo
+    </button>
+</div>
+
+</body>
+</html>
